@@ -30,7 +30,7 @@ Status: 176 Index: 0 T: 37.42 degC, P: 964.42 hPa, H 26.24 %rH , G: 144190 ohms
 <br>
 Real temperature ~23°C.<br>
 However, I was more interested in getting the I2C driver also runnig on a Jetson Xavier.<br>
-About temperature accuracy, I will worry later and remember a similar issue with a BOSCH BMP280 a while ago with ARM mbed and a nice Nixie (display tubes) circuit. - No the Nixies were not too hot or close to the sensor.  J
+About temperature accuracy, I will worry later and remember a similar issue with a BOSCH BMP280 a while ago with ARM mbed and nice glowing Nixies (ancient display tubes) circuit. - No the Nixies were not too hot or close to the sensor.  J
 
 How to compile
 ---
