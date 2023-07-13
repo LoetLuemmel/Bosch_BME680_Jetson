@@ -21,7 +21,7 @@ My I2C BME680 can be located on bus 8 with an I2C address 0x77.
 
 # Accuracy
 
-Mr. Su already asked why the temperature keeps rising.<br>
+Mr. Su already asked Bosch Sensortec, why the temperature keeps rising.<br>
 I have the same problem, it started at ~32.2°C and keeps rising.<br>
 <br>
 <code>
@@ -30,7 +30,7 @@ Status: 176 Index: 0 T: 37.42 degC, P: 964.42 hPa, H 26.24 %rH , G: 144190 ohms
 <br>
 Real temperature ~23°C.<br>
 However, I was more interested in getting the I2C driver also runnig on a Jetson Xavier.<br>
-About temperature accuracy, I will worry later and remember a similar issue with BMP280 a while ago with ARM mbed and a Nixie (display tubes) circuit.
+About temperature accuracy, I will worry later and remember a similar issue with a BOSCH BMP280 a while ago with ARM mbed and a nice Nixie (display tubes) circuit. - No the Nixies were not too hot or close to the sensor.  J
 
 How to compile
 ---
