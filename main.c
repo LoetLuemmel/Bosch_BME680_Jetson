@@ -219,6 +219,7 @@ int main() {
     if (gas_sensor.power_mode == BME680_FORCED_MODE) {
       rslt = bme680_set_sensor_mode(&gas_sensor);
     }
+    _sleep(10000); // wait for 10 seconds
   }
 
   return rslt;
