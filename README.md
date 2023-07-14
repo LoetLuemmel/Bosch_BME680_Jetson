@@ -29,7 +29,7 @@ I initially had the same problem: Measurement started at ~32.2°C and kept risin
 <br>
 Real temperature ~23°C.<br>
 <br>
-In the next step I added a waiting cycle of 10 seconds and the sensor seems to be more 'cool'. Measurement results became more realistic and I assume continous heating for gas measurement might have caused rising values.<br>
+In the next step I added a non blocking waiting cycle of 10 seconds and the sensor seems to be more 'cool'. Measurement results became more realistic and I assume continous heating for gas measurement might have caused rising values.<br>
 <br>
 <code>Status: 176 Index: 0 T: 24.28 degC, P: 965.74 hPa, H 54.33 %rH , G: 43735 ohms</code><br>
 <br>
