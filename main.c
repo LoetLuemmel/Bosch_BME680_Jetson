@@ -207,8 +207,10 @@ int main() {
     printf("Status: %d Index: %d T: %.2f degC, P: %.2f hPa, H %.2f %%rH ", 
       data.status, 
       data.meas_index, 
-      data.temperature / 100.0f, data.pressure / 100.0f,
-      data.humidity / 1000.0f );
+      data.temperature / 100.0f,
+      data.pressure / 100.0f,
+      data.humidity / 1000.0f 
+      );
     /* Avoid using measurements from an unstable heating setup */
     if(data.status & BME680_GASM_VALID_MSK)
       printf(", G: %d ohms", data.gas_resistance);
