@@ -29,7 +29,11 @@ I initially had the same problem: Measurement started at ~32.2°C and kept risin
 <br>
 Real temperature ~23°C.<br>
 <br>
-In the next step I added a waiting cycle of 10 seconds and the sensor seems 'cool' and measurement results are more realistic.<br>
+In the next step I added a waiting cycle of 10 seconds and the sensor seems to be more 'cool'. Measurement results became more realistic and I assume continous heating for gas measurement might have caused rising values.<br>
+<br>
+<code>Status: 176 Index: 0 T: 24.28 degC, P: 965.74 hPa, H 54.33 %rH , G: 43735 ohms</code><br>
+<br>
+ToDo: Check BOSCH's documentation for appropiate measurement. In addition, this sensor was subject of a Google Summer of Code Event. I might ask about their experience. Bosch did supply that team with sound information about the sensor.<br>
 <br>
 However, I was more interested in getting the I2C driver also runnig on a Jetson Xavier.<br>
 About temperature accuracy, I will worry later and remember a similar issue with a BOSCH BMP280 a while ago with ARM mbed and nice glowing Nixies (ancient display tubes) circuit. - No the Nixies were not too hot or close to the sensor.  J
